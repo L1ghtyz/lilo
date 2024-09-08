@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(pessoas.css);
+
+/* Variáveis */
+
+:root {
+    --maincolor: #141414;
+    --secondary-color: #F6F6F6;
+    --tertiary-color: #ff0056;
+    /* --tertiary-color: #b537d8; */
+    --hover-color: #272727;
+
+    --primary-font: 'Krona One', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+}
+
+
+/* LIGHTY */
+
+.participantes__content__lighty {
+    margin: 4% 14%;
+    align-items: center;
+    display: flex;
+    gap: 82px;
+}
+
+.image__pfp__lighty {
+    width: 20%;
+}
+
+.participantes__content__names__lighty {
+    font-family: var(--primary-font);
+    font-size: 1.85em;
+    padding: 2% 0% 25%;
+}
+
+.participantes__content__gift__lighty {
+    font-family: var(--secondary-font);
+    padding: 7% 10% 20% 10%;
+    border: 2px solid var(--secondary-color);
+    transition: .2s;
+}
+
+.participantes__content__gift__lighty:hover {
+    background-color: var(--hover-color);
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+/* DEKU */
+
+.participantes__content__deku {
+    margin: 4% 14%;
+    align-items: center;
+    display: flex;
+    gap: 82px;
+}
+
+.image__pfp__deku {
+    width: 20%;
+}
+
+.participantes__content__names__deku {
+    font-family: var(--primary-font);
+    font-size: 2.3em;
+    padding: 2% 0% 25%;
+}
+
+.participantes__content__gift__deku {
+    font-family: var(--secondary-font);
+    padding: 7% 10% 20% 10%;
+    border: 2px solid var(--secondary-color);
+    transition: .2s;
+}
+
+.participantes__content__gift__deku:hover {
+    background-color: var(--hover-color);
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+
+/* REGIS */
+
+.participantes__content__regis {
+    margin: 4% 14%;
+    align-items: center;
+    display: flex;
+    gap: 82px;
+}
+
+.image__pfp__regis {
+    width: 20%;
+}
+
+.participantes__content__names__regis {
+    font-family: var(--primary-font);
+    font-size: 2.2em;
+    padding: 2% 0% 25%;
+}
+
+.participantes__content__gift__regis {
+    font-family: var(--secondary-font);
+    padding: 7% 10% 20% 10%;
+    border: 2px solid var(--secondary-color);
+    transition: .2s;
+}
+
+.participantes__content__gift__regis:hover {
+    background-color: var(--hover-color);
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+
+/* DUDU */
+
+.participantes__content__dudu {
+    margin: 4% 14%;
+    align-items: center;
+    display: flex;
+    gap: 82px;
+}
+
+.image__pfp__dudu {
+    width: 20%;
+}
+
+.participantes__content__names__dudu {
+    font-family: var(--primary-font);
+    font-size: 2.35em;
+    padding: 2% 0% 25%;
+}
+
+.participantes__content__gift__dudu {
+    font-family: var(--secondary-font);
+    padding: 7% 10% 20% 10%;
+    border: 2px solid var(--secondary-color);
+    transition: .2s;
+}
+
+.participantes__content__gift__dudu:hover {
+    background-color: var(--hover-color);
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+/* KAI */
+
+.participantes__content__kai {
+    margin: 4% 14%;
+    align-items: center;
+    display: flex;
+    gap: 82px;
+}
+
+.image__pfp__kai {
+    width: 20%;
+}
+
+.participantes__content__names__kai {
+    font-family: var(--primary-font);
+    font-size: 2.95em;
+    padding: 2% 0% 25%;
+}
+
+.participantes__content__gift__kai {
+    font-family: var(--secondary-font);
+    padding: 7% 10% 20% 10%;
+    border: 2px solid var(--secondary-color);
+    transition: .2s;
+}
+
+.participantes__content__gift__kai:hover {
+    background-color: var(--hover-color);
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+/* FAFI */
+
+.participantes__content__fafi {
+    margin: 4% 14%;
+    align-items: center;
+    display: flex;
+    gap: 82px;
+}
+
+.image__pfp__fafi {
+    width: 20%;
+}
+
+.participantes__content__names__fafi {
+    font-family: var(--primary-font);
+    font-size: 3.39em;
+    padding: 2% 0% 25%;
+}
+
+.participantes__content__gift__fafi {
+    font-family: var(--secondary-font);
+    padding: 7% 10% 20% 10%;
+    border: 2px solid var(--secondary-color);
+    transition: .2s;
+}
+
+.participantes__content__gift__fafi:hover {
+    background-color: var(--hover-color);
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+/* KUYTH */
+
+.participantes__content__kuyth {
+    margin: 4% 14%;
+    align-items: center;
+    display: flex;
+    gap: 82px;
+}
+
+.image__pfp__kuyth {
+    width: 20%;
+}
+
+.participantes__content__names__kuyth {
+    font-family: var(--primary-font);
+    font-size: 2.23em;
+    padding: 2% 0% 25%;
+}
+
+.participantes__content__gift__kuyth {
+    font-family: var(--secondary-font);
+    padding: 7% 10% 20% 10%;
+    border: 2px solid var(--secondary-color);
+    transition: .2s;
+}
+
+.participantes__content__gift__kuyth:hover {
+    background-color: var(--hover-color);
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+/* Cartas */
+
+.carta {
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    text-align: justify;
+    
+}
+
+.cartas__separar {
+    display: flex;
+    margin: 0% 44%;
+}

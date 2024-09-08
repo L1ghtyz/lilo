@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variáveis */
+
+:root {
+    --maincolor: #141414;
+    --secondary-color: #F6F6F6;
+    --tertiary-color: #ff0056;
+    /* --tertiary-color: #b537d8; */
+    --hover-color: #272727;
+
+    --primary-font: 'Krona One', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+}
+
+/* Corpo */
+
+body {
+    box-sizing: border-box;
+    background-color: var(--maincolor);
+    color: var(--secondary-color);
+
+}
+
+/* Header */
+
+.mainheader {
+    padding: 3.5% 0% 0% 15%;
+}
+
+.mainheader__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.mainheader__menu__link {
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--tertiary-color);
+    text-decoration: none;
+    border: var(--secondary-color), solid, 2px;
+    border-color: var(--secondary-color);
+    border-radius: 5%;
+    padding: 0.5rem 0.5rem;
+    transition: .2s;
+
+}
+
+.mainheader__menu__link:hover {
+    background-color: var(--hover-color);
+    opacity: 100%;
+    transform: scale(1.05);
+
+}
+
+/* Main */
+
+/* Section */
+
+.container {
+    padding: 4% 10%;
+    display: flex;
+    align-items: center;
+    gap: 82px;
+}
+
+.container__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0% 5%;
+}
+
+/* Texto */
+
+.container__content__subtitle {
+    font-family: var(--primary-font);
+    font-size: 2.20rem;
+    padding: 1% 0 1%;
+}
+
+.container__content__paragraph {
+    font-family: var(--secondary-font);
+    font-weight: 400px;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-bottom: 10%;
+}
+
+.titledestaque {
+    color: var(--tertiary-color);
+}
+
+/* Image */
+
+.image {
+    width: 30%;
+    margin-top: -1em;
+}
+
+.lembrancas {
+    padding: 5% 8% 5%;
+}
+
+.lembrancas__content {
+    justify-content: center;
+    
+}
+
+
+.lembrancas__content__images {
+    width: 25%;
+    padding: 2% 4%;
+    gap: 80px;
+}
